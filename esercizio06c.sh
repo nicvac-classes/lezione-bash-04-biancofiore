@@ -13,5 +13,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+grep "INFO" server.log 
+wc -l server.log
+grep -v "INFO" server.log 

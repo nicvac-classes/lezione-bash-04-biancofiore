@@ -13,5 +13,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+find ambiente/progetti/ -type f -name "*.css"
+sed 's/#333333/#000000/g' ambiente/progetti/webapp/css/stile.css 
+sed -i 's/#333333/#000000/g' ambiente/progetti/webapp/css/stile.css 
+cat ambiente/progetti/webapp/css/stile.css 
