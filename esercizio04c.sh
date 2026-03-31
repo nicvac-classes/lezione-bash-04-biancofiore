@@ -14,5 +14,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+cp *.txt ../../sandbox/
+mv ../documenti/report/2023/vendite_q2.txt ../archivio/report_vendite_q2_2023.txt
+ls
