@@ -14,5 +14,9 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+echo "Il mio script funziona!" > mio_script.sh
+ls -l
+chmod u+x mio_script.sh 
+chmod g-w mio_script.sh
+chmod o-w mio_script.sh
+ls -l
