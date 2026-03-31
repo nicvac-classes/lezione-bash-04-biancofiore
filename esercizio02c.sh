@@ -20,5 +20,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+mkdir -p negozio/{abbigliamento,elettronica}/{uomo,donna}
+rm -r negozio/
 
