@@ -19,6 +19,6 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
-
+grep -rn -E "[0-9]\.[0-9]" ambiente/progetti/
+grep -r -E "[A-Z][a-z]+" ambiente/progetti/
+ grep -r -l -E "TODO" ambiente/progetti/
