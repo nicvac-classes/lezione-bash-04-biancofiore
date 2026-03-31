@@ -14,6 +14,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+grep -r "*2023*" ambiente/immagini/
 echo "=== ELENCO FILE ===" > report.txt
 

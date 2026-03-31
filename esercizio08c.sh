@@ -13,6 +13,7 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
+
 awk -F ',' 'NR > 1{print $1 , $2}' ambiente/dati/prodotti.csv 
 awk -F ',' 'NR >1 {print $1 $2}' ambiente/dati/prodotti.csv 
 
